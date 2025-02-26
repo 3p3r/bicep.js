@@ -1,6 +1,6 @@
 {
   "name": "bicep.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utilities to work with Bicep files in JavaScript",
   "main": "dist/bicep.js",
   "types": "./types.d.ts",
