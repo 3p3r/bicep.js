@@ -1,0 +1,51 @@
+{
+  "name": "bicep.js",
+  "version": "1.0.0",
+  "description": "Utilities to work with Bicep files in JavaScript",
+  "main": "dist/bicep.js",
+  "types": "./types.d.ts",
+  "files": [
+    "bicep.js",
+    "types.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "bundle": "webpack",
+    "build": "tsx build.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3p3r/bicep.js.git"
+  },
+  "keywords": [],
+  "author": "Sepehr Laal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3p3r/bicep.js/issues"
+  },
+  "homepage": "https://github.com/3p3r/bicep.js#readme",
+  "devDependencies": {
+    "@types/atob-lite": "^2.0.2",
+    "@types/lodash": "^4.17.15",
+    "@types/node": "^22.13.5",
+    "@types/traverse": "^0.6.37",
+    "@types/webpack": "^5.28.5",
+    "atob-lite": "^2.0.0",
+    "browserify-webpack-plugin": "^0.5.4",
+    "copy-webpack-plugin": "^12.0.2",
+    "lodash": "^4.17.21",
+    "terser-webpack-plugin": "^5.3.11",
+    "tree-sitter": "^0.22.1",
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "url-loader": "^4.1.1",
+    "web-tree-sitter": "^0.24.4",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0",
+    "zx": "^8.3.2"
+  }
+}

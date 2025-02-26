@@ -1,0 +1,3 @@
+[submodule "tree-sitter-bicep"]
+	path = tree-sitter-bicep
+	url = https://github.com/tree-sitter-grammars/tree-sitter-bicep
